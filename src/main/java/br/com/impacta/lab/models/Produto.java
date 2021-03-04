@@ -1,4 +1,4 @@
-package br.com.impacta.models
+package br.com.impacta.models;
 
 public class produto {
   private int codigo;
