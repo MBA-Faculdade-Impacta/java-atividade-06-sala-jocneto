@@ -49,10 +49,16 @@ public class JavaSpringTemplateApplication {
 		produto.valor = 70.00;
 		
 		listaDeProdutos.add(produto);
+
+    Produto shorts = new Produto();
+		produto.codigo = 2;
+		produto.descricao = "Shorts";
+		produto.valor = 57.50;
+
+    listaDeProdutos.add(produto);
 		
-		Produto produtoEncontrado = Produto.buscarProdutoPeloId(listaDeProdutos, 1);
-		
-		System.out.println(produtoEncontrado);
+		Produto produtoEncontrado = Produto.buscarProdutoPeloId(listaDeProdutos, 2);
+		System.out.println(produtoEncontrado.descricao);
 	}
 
 }
