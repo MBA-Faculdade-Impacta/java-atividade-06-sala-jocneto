@@ -9,8 +9,10 @@ public class produto {
 		 for (int contador = 0; contador < listadeprodutos.size(); contador++){
        Produto produto = listaDeProdutos.get(contador);
        if (codigoProduto == produto.codigo)
-return produto     }
+return produto;     }
 
-{return null} 
+{
+  return null;
+} 
 }
 }
